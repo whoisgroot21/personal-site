@@ -1,0 +1,77 @@
+html
+{
+	background-color: #151515;
+	color: white;
+}
+
+
+body
+{
+	font-size: 1rem;
+	max-width: min(100% - 2rem, 64rem);/*64rem; or 1024px; or 50%;*/
+	margin: auto;
+	line-height: 1.5;
+}
+
+h1, h2, p, a
+{
+	color: white;
+}
+
+
+.heading
+{
+	text-align: center;
+}
+
+.heading h1
+{
+	font-size: 3.2rem;
+	margin: auto auto;
+}
+.heading p
+{
+	margin: auto auto;
+}
+
+.links
+{
+	margin: 32px 0px;
+	display: flex;
+	gap: 8px;
+}
+
+
+.project-body
+{
+	display: flex;
+	gap: 16px;
+	width: 100%;
+}
+.project-body .text
+{
+	flex: 1;
+}
+.project-body .image
+{
+	flex: 0 0 30%;
+}
+.project-body .image img
+{
+	width: 100%;
+	height: auto;
+}
+
+
+.image
+{
+
+}
+
+/* implement this 
+.project-images img
+{
+	cursor: zoom-in;
+	cursor: zoom-out;
+	transform: scale(3);
+}*/
