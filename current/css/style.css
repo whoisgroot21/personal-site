@@ -45,8 +45,17 @@ h1, h2, p, a
 .project-body
 {
 	display: flex;
+	flex-direction: row;
 	gap: 16px;
 	width: 100%;
+
+}
+@media (max-width: 48rem)
+{
+	.project-body
+	{
+		flex-direction: column;
+	}
 }
 .project-body .text
 {
